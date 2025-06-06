@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Camera Store</title>
 </head>
+
 <body class="bg-[#231F1F]">
-    <header class="flex justify-between items-center mt-4 ml-12 mr-12">
+    <header class="relative flex justify-between items-center mt-4 ml-12 mr-12">
         <img src="./img/logo.png" alt="logo">
-        <menu class="flex gap-12 text-[#FEFEFE] text-sm font-[Roboto]">
-            <span class="text-center">About</span>
+        <menu class="flex gap-12 text-[#FEFEFE] text-[14px] font-[Roboto]">
+            <span>About</span>
             <span>Product</span>
             <span>Store</span>
             <span>Contact</span>
@@ -23,6 +30,39 @@
             <img src="./img/icon-carrinho.svg" class="size-4" alt="">
         </div>
     </header>
-    <main></main>
+    <main class="flex">
+        <section class="flex-1 bg-blue-500 pl-27 mt-20">
+            <h2 class="relative text-[#FEFEFE] text-[18px] font-[Roboto] font-bold tracking-[0.45rem] top-5">
+                PROFESIONAL SERIES
+            </h2>
+            <h1 class="text-[#FEFEFE] text-[95px]/30 font-[Rowdies]">
+                CAMERA EVO <span class="text-[#F2AE00]">4.0</span>
+            </h1>
+            <p class="text-[#E5E5E5] text-[15px]/6 font-[Roboto] max-w-102">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien cursus integer diam varius ac
+                pellentesque est neque. Tempor, faucibus sed massa neque id in quam. Amet feugiat quam ut scelerisque
+                nec imperdiet nisl leo.
+            </p>
+            <div class="object-contain flex items-center pt-22">
+                <div class="w-50 h-11 overflow-hidden text-[18px]/10 font-bold relative">
+                    <div class="bg-[#F3BC2B] w-full h-37 -rotate-60 relative bottom-13"></div>
+                    <span class="absolute bottom-1 left-9">
+                        Buy now
+                    </span>
+                    <span class="absolute bottom-1 left-32">
+                        $120
+                    </span>
+                </div>
+                <div class="w-19 h-11 overflow-hidden relative right-5">
+                    <div class="bg-[#FB9E02] w-full h-full -rotate-60"></div>
+                    <img src="./img/icon-seta.svg" class="absolute bottom-4 left-6" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="flex-1 bg-pink-500">
+            <img src="./img/camera-principal.png" alt="">
+        </section>
+    </main>
 </body>
+
 </html>
