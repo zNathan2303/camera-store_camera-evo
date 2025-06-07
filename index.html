@@ -17,88 +17,109 @@
 </head>
 
 <body class="bg-[#231F1F] overflow-hidden">
-    <div class="absolute top-0 left-0 object-contain w-screen h-screen overflow-hidden">
-        <div class="absolute left-150 -top-30 -z-1 object-contain w-32 h-400 bg-[#F1AF00] rotate-27"></div>
-        <div class="absolute left-190 -top-30 -z-1 object-contain w-5 h-400 bg-[#F1AF00] rotate-27"></div>
-        <span class="absolute left-92 top-28 -z-2 text-[#353333] text-[257px] text-nowrap font-[Rowdies]">
+    <div class="absolute top-0 left-0 -z-1 object-contain w-screen h-screen overflow-hidden">
+        <div class="absolute right-140 -top-30 -z-1 object-contain w-32 h-400 bg-[#F1AF00] rotate-27 
+            max-[640px]:right-118"></div>
+        <div class="absolute right-128 -top-30 -z-1 object-contain w-5 h-400 bg-[#F1AF00] rotate-27 
+            max-[640px]:right-105"></div>
+        <span
+            class="absolute left-92 top-28 object-contain -z-2 text-[#353333] text-[257px] text-nowrap font-[Rowdies]
+            max-[640px]:text-[130px] max-[640px]:inset-auto max-[640px]:top-7 max-[640px]:right-[50%]  max-[640px]:translate-[50%]">
             CAMERA EVO
         </span>
     </div>
-    <header class="relative flex justify-between items-center mt-4 ml-12 mr-12">
+    <header class="relative flex justify-between items-center mt-4 ml-12 mr-12 
+        max-[640px]:ml-5 max-[640px]:mr-7">
         <img src="./img/logo.png" alt="logo">
-        <menu class="flex gap-12 text-[#FEFEFE] text-[14px] font-[Roboto]">
-            <span>About</span>
-            <span>Product</span>
-            <span>Store</span>
-            <span>Contact</span>
+        <menu class="flex gap-12 text-[#FEFEFE] text-[14px] font-[Roboto] 
+            max-[640px]:text-[12px] max-[640px]:gap-9">
+            <li>About</li>
+            <li>Product</li>
+            <li>Store</li>
+            <li>Contact</li>
         </menu>
         <div class="flex gap-4">
             <img src="./img/icon-busca.svg" class="size-4" alt="">
             <img src="./img/icon-carrinho.svg" class="size-4" alt="">
         </div>
     </header>
-    <main class="pl-27 mt-20">
-
-        <h2 class="relative text-[#FEFEFE] text-[18px] font-[Roboto] font-bold tracking-[0.45rem] top-5">
+    <main
+        class="pl-27 mt-20 
+        max-[640px]:flex max-[640px]:flex-col max-[640px]:justify-center max-[640px]:items-center max-[640px]:pl-0 max-[640px]:mt-12">
+        <h2 class="relative text-[#FEFEFE] text-[18px] font-[Roboto] font-bold tracking-[0.45rem] top-5
+            max-[640px]:top-10">
             PROFESIONAL SERIES
         </h2>
-        <h1 class="text-[#FEFEFE] text-[95px]/30 font-[Rowdies] object-contain w-114">
+        <h1 class="text-[#FEFEFE] text-[95px]/30 font-[Rowdies] object-contain w-114 
+            max-[640px]:text-[58px] max-[640px]:w-auto">
             CAMERA EVO <span class="text-[#F2AE00]">4.0</span>
         </h1>
-        <p class="text-[#E5E5E5] text-[15px]/6 font-[Roboto] max-w-102">
+        <p class="text-[#E5E5E5] text-[15px]/6 font-[Roboto] max-w-102 max-[640px]:hidden">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapien cursus integer diam varius ac
             pellentesque est neque. Tempor, faucibus sed massa neque id in quam. Amet feugiat quam ut scelerisque
             nec imperdiet nisl leo.
         </p>
-        <div class="object-contain flex items-center pt-22">
-            <div class="w-50 h-11 overflow-hidden text-[18px]/10 font-bold relative">
+
+        <div>
+            <img src="./img/camera-principal.png" class="absolute right-0 top-0 max-[640px]:w-85 max-[640px]:static"
+                alt="">
+            <div class="max-[640px]:hidden">
+                <div
+                    class="absolute top-43 right-104 object-contain size-10 bg-[#FEFEFE]/50 rounded-[50%] flex justify-center items-center">
+                    <div
+                        class="object-contain size-6 bg-[#FEFEFE] rounded-[50%] flex justify-center items-center text-[16px] font-[Roboto]">
+                        +
+                    </div>
+                </div>
+                <div
+                    class="absolute top-117 right-91 object-contain size-10 bg-[#FEFEFE]/50 rounded-[50%] flex justify-center items-center">
+                    <div
+                        class="object-contain size-6 bg-[#FEFEFE] rounded-[50%] flex justify-center items-center text-[16px] font-[Roboto]">
+                        +
+                    </div>
+                </div>
+                <div
+                    class="absolute top-88 right-48 object-contain size-10 bg-[#FEFEFE]/50 rounded-[50%] flex justify-center items-center">
+                    <div
+                        class="object-contain size-6 bg-[#FEFEFE] rounded-[50%] flex justify-center items-center text-[16px] font-[Roboto]">
+                        +
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="absolute flex gap-3 right-12 bottom-4 max-[640px]:static">
+            <div class="flex items-center justify-center object-contain w-25 h-23 bg-[#5D5C5C] rounded-[5px] border-2 border-[#F1AF00]
+                max-[640px]:w-18 max-[640px]:h-16 max-[640px]:16,5">
+                <img src="./img/sub-camera-1.png" class="max-[640px]:object-contain max-[640px]:w-13" alt="">
+            </div>
+            <div class="flex items-center justify-center object-contain w-25 h-23 bg-[#5D5C5C] rounded-[5px] 
+            max-[640px]:w-18 max-[640px]:h-16">
+                <img src="./img/sub-camera-2.png" class="max-[640px]:object-contain max-[640px]:w-14" alt="">
+            </div>
+            <div class=" flex items-center justify-center object-contain w-25 h-23 bg-[#5D5C5C] rounded-[5px]
+                    max-[640px]:w-18 max-[640px]:h-16">
+                <img src="./img/sub-camera-3.png" class="max-[640px]:object-contain max-[640px]:w-14" alt="">
+            </div>
+        </div>
+        <div class=" object-contain flex items-center pt-22 max-[640px]:pt-6">
+            <div class="w-55 h-11 overflow-hidden text-[18px]/10 font-bold relative right-2 
+                max-[640px]:h-14 max-[640px]:right-0">
                 <div class="bg-[#F3BC2B] w-full h-37 -rotate-60 relative bottom-13"></div>
-                <span class="absolute bottom-1 left-9">
+                <span class="absolute bottom-1 left-11 
+                    max-[640px]:bottom-2 max-[640px]:left-9">
                     Buy now
                 </span>
-                <span class="absolute bottom-1 left-32">
+                <span class="absolute bottom-1 left-35 
+                max-[640px]:bottom-2 max-[640px]:left-32">
                     $120
                 </span>
             </div>
-            <div class="w-19 h-11 overflow-hidden relative right-5">
+            <div class="w-24 h-11 overflow-hidden relative right-11 
+                max-[640px]:h-14 max-[640px]:right-8">
                 <div class="bg-[#FB9E02] w-full h-full -rotate-60"></div>
-                <img src="./img/icon-seta.svg" class="absolute bottom-4 left-6" alt="">
-            </div>
-        </div>
-        <div>
-            <img src="./img/camera-principal.png" class="absolute right-0 top-0" alt="">
-            <div
-                class="absolute top-43 right-104 object-contain size-10 bg-[#FEFEFE]/50 rounded-[50%] flex justify-center items-center">
-                <div
-                    class="object-contain size-6 bg-[#FEFEFE] rounded-[50%] flex justify-center items-center text-[16px] font-[Roboto]">
-                    +
-                </div>
-            </div>
-            <div
-                class="absolute top-117 right-91 object-contain size-10 bg-[#FEFEFE]/50 rounded-[50%] flex justify-center items-center">
-                <div
-                    class="object-contain size-6 bg-[#FEFEFE] rounded-[50%] flex justify-center items-center text-[16px] font-[Roboto]">
-                    +
-                </div>
-            </div>
-            <div
-                class="absolute top-88 right-48 object-contain size-10 bg-[#FEFEFE]/50 rounded-[50%] flex justify-center items-center">
-                <div
-                    class="object-contain size-6 bg-[#FEFEFE] rounded-[50%] flex justify-center items-center text-[16px] font-[Roboto]">
-                    +
-                </div>
-            </div>
-        </div>
-        <div class="absolute flex gap-3 right-12 bottom-4">
-            <div
-                class="flex items-center justify-center object-contain w-25 h-23 bg-[#5D5C5C] rounded-[5px] border-2 border-[#F1AF00]">
-                <img src="./img/sub-camera-1.png" alt="">
-            </div>
-            <div class="flex items-center justify-center object-contain w-25 h-23 bg-[#5D5C5C] rounded-[5px]">
-                <img src="./img/sub-camera-2.png" alt="">
-            </div>
-            <div class="flex items-center justify-center object-contain w-25 h-23 bg-[#5D5C5C] rounded-[5px]">
-                <img src="./img/sub-camera-3.png" alt="">
+                <img src="./img/icon-seta.svg" class="absolute bottom-4 left-8
+                    max-[640px]:bottom-5" alt="">
             </div>
         </div>
     </main>
