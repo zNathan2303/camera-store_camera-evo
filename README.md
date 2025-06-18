@@ -1,6 +1,11 @@
 # Camera Store
+* Desktop
 ![](./img/desktop_preview.png)
+
+* Tablet
 ![](./img/tablet_preview.png)
+
+* Mobile
 ![](./img/mobile_preview.png)
 
 Website de venda de câmeras do tipo landing page, com responsividade entre desktop, tablet e mobile, realizado como ativadade do SAS - Situação de Aprendizagem Somativa.
